@@ -35,7 +35,7 @@ static class Guard
     public static void FileExists(string argName, string fileName)
     {
         ArgumentNotNullOrEmpty(argName, fileName);
-#if !NETSTANDARD
+#if !(NETSTANDARD1_1 || NETSTANDARD1_5)
         ArgumentValid(argName, $"File not found: {fileName}", File.Exists(fileName));
 #endif
     }

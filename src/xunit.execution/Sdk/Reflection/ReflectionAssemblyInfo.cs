@@ -27,7 +27,7 @@ namespace Xunit.Sdk
         /// <param name="assemblyFileName">The assembly to be wrapped.</param>
         public ReflectionAssemblyInfo(string assemblyFileName)
         {
-#if NETSTANDARD
+#if NETSTANDARD && !NETSTANDARD2_0
             Assembly = Assembly.Load(new AssemblyName { Name = Path.GetFileNameWithoutExtension(assemblyFileName), Version = new Version(0, 0, 0, 0) });
 #else
             Assembly = Assembly.Load(AssemblyName.GetAssemblyName(assemblyFileName));

@@ -20,7 +20,7 @@ namespace Xunit
         static readonly string[] SupportedPlatforms = { "dotnet", "desktop" };
         static readonly string[] SupportedPlatforms_ForcedAppDomains = { "desktop" };
         readonly AssemblyHelper assemblyHelper;
-#elif NETCOREAPP || NETSTANDARD1_5
+#elif NETCOREAPP || NETSTANDARD1_5 || NETSTANDARD2_0
         static readonly string[] SupportedPlatforms = { "dotnet" };
 #else
         static readonly string[] SupportedPlatforms = { "dotnet", "MonoAndroid", "MonoTouch", "iOS-Universal", "universal", "win8", "wp8" };
