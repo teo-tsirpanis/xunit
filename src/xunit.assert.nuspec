@@ -23,6 +23,9 @@
   <files>
     <file target="_content\" src="..\tools\media\logo-128-transparent.png" />
 
+    <file src="xunit.assert\bin\$Configuration$\net452\xunit.assert.dll" target="lib\net452\" />
+    <file src="xunit.assert\bin\$Configuration$\net452\xunit.assert.xml" target="lib\net452\" />
+
     <file src="xunit.assert\bin\$Configuration$\netstandard1.1\xunit.assert.dll" target="lib\netstandard1.1\" />
     <file src="xunit.assert\bin\$Configuration$\netstandard1.1\xunit.assert.xml" target="lib\netstandard1.1\" />
 
