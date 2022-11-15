@@ -13,6 +13,8 @@ using System.Reflection;
 [assembly: AssemblyTitle("xUnit.net Runner Utility (.NET Standard 2.0)")]
 #elif NETCOREAPP1_0
 [assembly: AssemblyTitle("xUnit.net Runner Utility (.NET Core 1.0)")]
+#elif NETCOREAPP2_0
+[assembly: AssemblyTitle("xUnit.net Runner Utility (.NET Core 2.0)")]
 #elif WINDOWS_UAP
 [assembly: AssemblyTitle("xUnit.net Runner Utility (Universal Windows 10.0)")]
 #else

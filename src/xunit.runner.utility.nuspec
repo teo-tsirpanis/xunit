@@ -36,6 +36,9 @@
         <dependency id="System.Runtime.Loader" version="4.0.0" />
         <dependency id="xunit.abstractions" version="2.0.3" />
       </group>
+      <group targetFramework="netcoreapp2.0">
+        <dependency id="xunit.abstractions" version="2.0.3" />
+      </group>
       <group targetFramework="uap10.0">
         <dependency id="xunit.abstractions" version="2.0.3" />
       </group>
@@ -61,6 +64,9 @@
 
     <file src="xunit.runner.utility\bin\$Configuration$\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" target="lib\netcoreapp1.0\" />
     <file src="xunit.runner.utility\bin\$Configuration$\netcoreapp1.0\xunit.runner.utility.netcoreapp10.xml" target="lib\netcoreapp1.0\" />
+
+    <file src="xunit.runner.utility\bin\$Configuration$\netcoreapp2.0\xunit.runner.utility.netcoreapp20.dll" target="lib\netcoreapp2.0\" />
+    <file src="xunit.runner.utility\bin\$Configuration$\netcoreapp2.0\xunit.runner.utility.netcoreapp20.xml" target="lib\netcoreapp2.0\" />
 
     <file src="xunit.runner.utility\bin\$Configuration$\uap10.0\xunit.runner.utility.uwp10.dll" target="lib\uap10.0\" />
     <file src="xunit.runner.utility\bin\$Configuration$\uap10.0\xunit.runner.utility.uwp10.xml" target="lib\uap10.0\" />
