@@ -31,9 +31,9 @@
   <files>
     <file target="_content\" src="..\tools\media\logo-128-transparent.png" />
 
-    <file src="xunit.core\bin\$Configuration$\netstandard1.1\xunit.core.dll"                  target="lib\net452\" />
-    <file src="xunit.core\bin\$Configuration$\netstandard1.1\xunit.core.dll.tdnet"            target="lib\net452\" />
-    <file src="xunit.core\bin\$Configuration$\netstandard1.1\xunit.core.xml"                  target="lib\net452\" />
+    <file src="xunit.core\bin\$Configuration$\net452\xunit.core.dll"                          target="lib\net452\" />
+    <file src="xunit.core\bin\$Configuration$\net452\xunit.core.dll.tdnet"                    target="lib\net452\" />
+    <file src="xunit.core\bin\$Configuration$\net452\xunit.core.xml"                          target="lib\net452\" />
     <file src="xunit.runner.tdnet\bin\$Configuration$\net452\xunit.runner.tdnet.dll"          target="lib\net452\" />
     <file src="xunit.runner.tdnet\bin\$Configuration$\net452\xunit.runner.utility.net452.dll" target="lib\net452\" />
 
